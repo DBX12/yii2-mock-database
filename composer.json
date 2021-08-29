@@ -1,0 +1,32 @@
+{
+    "name": "dbx12/yii2-mock-database",
+    "description": "Mock connection for the Yii2 database connection. This connection can be configured to fail operations for testing purposes.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DBX12",
+            "email": "dbx12@dbx12.de"
+        }
+    ],
+    "require": {
+        "php": ">7.4"
+    },
+    "require-dev": {
+        "yiisoft/yii2": ">2.0.14",
+        "phpunit/phpunit": "9.5.8"
+    },
+    "conflict": {
+        "yiisoft/yii2": "<2.0.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "dbx12\\yii2MockDatabase\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "dbx12\\yii2MockDatabase\\tests\\": "tests"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/sebastianbergmann/phpunit/9.5.8/phpunit.xsd"
+         bootstrap="tests/bootstrap.php"
+         colors="true"
+         verbose="true"
+         failOnRisky="true"
+         failOnWarning="true"
+         forceCoversAnnotation="true"
+>
+    <testsuites>
+        <testsuite name="unit">
+            <directory>tests/unit</directory>
+        </testsuite>
+    </testsuites>
+    <coverage>
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+    </coverage>
+    <extensions>
+        <extension class="dbx12\yii2MockDatabase\CleanupExtension">
+            <arguments>
+                <array>
+                    <element key="0">
+                        <string>tests/_output/mockDatabase.dat</string>
+                    </element>
+                </array>
+            </arguments>
+        </extension>
+    </extensions>
+</phpunit>
