@@ -5,7 +5,7 @@ database failures in your tests to check how your application behaves when the d
 
 ## Setup and usage
 
-1. Install with `composer require --dev dbx12\yii2-mock-database`
+1. Install with `composer require --dev dbx12/yii2-mock-database`
 2. Define the `\dbx12\yii2MockDatabase\Connection` class as your database connection class.
 3. During the tests, call `Yii::$app->db->failAlways()` to fail all subsequent commands. Make sure you've loaded your
    fixtures before doing that.
