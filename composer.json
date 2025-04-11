@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">7.4"
+        "php": "^8.0"
     },
     "require-dev": {
         "yiisoft/yii2": ">2.0.14",
@@ -27,6 +27,11 @@
     "autoload-dev": {
         "psr-4": {
             "dbx12\\yii2MockDatabase\\tests\\": "tests"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
         }
     }
 }
