@@ -13,7 +13,7 @@
         "php": "^8.0"
     },
     "require-dev": {
-        "yiisoft/yii2": "^2.0.49.4",
+        "yiisoft/yii2": "^2.0.52",
         "phpunit/phpunit": "9.5.8"
     },
     "autoload": {

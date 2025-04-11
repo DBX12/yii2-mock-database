@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Minimum PHP version is now 8.0 in composer.json
 - Minimum version of yiisoft/yii2 is now 2.0.49.4 in reaction to CVE-2024-4990
+- Minimum version of yiisoft/yii2 is now 2.0.52 in reaction to GHSA-ggwg-cmwp-46r5
 
 ## [v1.0.0] - 2021-08-29
 ### Added
