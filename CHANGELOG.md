@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [v1.0.1] - 2025-04-11
 ### Changed
 - Minimum PHP version is now 8.0 in composer.json
 - Minimum version of yiisoft/yii2 is now 2.0.49.4 in reaction to CVE-2024-4990
@@ -15,5 +17,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial commit
 
-[Unreleased]: https://github.com/dbx12/yii2-mock-database/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/dbx12/yii2-mock-database/compare/v1.0.1...HEAD
+[v1.0.1]: https://github.com/dbx12/yii2-mock-database/compare/v1.0.0...v1.0.1
 [v1.0.0]: https://github.com/DBX12/yii2-mock-database/tree/v1.0.0
