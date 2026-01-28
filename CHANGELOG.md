@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Changed
+- Minimum version of phpunit/phpunit is now 9.6.33 in reaction to GHSA-vvj3-c3rp-c85p
 
 ## [v1.0.1] - 2025-04-11
 ### Changed
